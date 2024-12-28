@@ -1,0 +1,41 @@
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif; /* ฟอนต์ดูทันสมัย */
+            background-color: #f0f0f0; /* เพิ่มพื้นหลังสีอ่อน */
+        }
+
+        img {
+            clip-path: circle(40%);
+            margin-bottom: 20px;
+        }
+
+        div {
+            border: 1px solid rgb(147, 89, 104);
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px; /* จำกัดความกว้าง */
+            width: 90%; /* ปรับขนาดอัตโนมัติตามหน้าจอ */
+        }
+
+        h1 {
+            color: #c67676; /* สีเขียวเข้ม */
+        }
+
+        p {
+            line-height: 1.6;
+            border: 1px solid #8d4e5c; /* กรอบสีเขียว */
+            border-radius: 20px; /* ทำให้มุมโค้งมนเป็นวงรี */
+            padding: 10px 20px; /* เพิ่มพื้นที่ในกรอบ */
+            margin: 10px 0; /* เพิ่มระยะห่างระหว่างแต่ละข้อความ */
+            background-color: #fd9797; /* เพิ่มพื้นหลังสีเขียวอ่อน */
+            display: inline-block; /* ทำให้ข้อความพอดีกับขนาดเนื้อหา */
+        }
